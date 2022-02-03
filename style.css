@@ -23,6 +23,7 @@ body {
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .cookie {
