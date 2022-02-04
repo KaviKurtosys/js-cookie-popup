@@ -1,3 +1,4 @@
+const tl = gsap.timeline({defaults: { duration: 0.75}})
 
-
-gsap.fromTo('.text', { opacity: 0, y: 40}, { opacity: 1, duration : 1, y:0})
+tl.fromTo('.cookie-container', {scale: 0}, {scale: 1});
+tl.fromTo('.cookie', {opacity: 0}, {opacity: 1});
